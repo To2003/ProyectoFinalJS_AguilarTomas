@@ -1,0 +1,41 @@
+[
+    {"pais": "QATAR", "grupo": "A", "bandera": "./img/Banderas/Qatar.png", "id": 1},
+    {"pais": "ECUADOR", "grupo": "A", "bandera": "./img/Banderas/Ecuador.png", "id": 2},
+    {"pais": "SENEGAL", "grupo": "A", "bandera": "./img/Banderas/Senegal.png", "id": 3},
+    {"pais": "HOLANDA", "grupo": "A", "bandera": "./img/Banderas/Holanda.png", "id": 4},
+
+    {"pais": "INGLATERRA", "grupo": "B", "bandera": "./img/Banderas/Inglaterra.png", "id": 5},
+    {"pais": "IRAN", "grupo": "B", "bandera": "./img/Banderas/Iran.png", "id": 6},
+    {"pais": "ESTADOS UNIDOS", "grupo": "B", "bandera": "./img/Banderas/EstadosUnidos.png", "id": 7},
+    {"pais": "GALES", "grupo": "B", "bandera": "./img/Banderas/Gales.png", "id": 8},
+
+    {"pais": "ARGENTINA", "grupo": "C", "bandera": "./img/Banderas/Argentina.png", "id": 9},
+    {"pais": "ARABIA SAUDITA", "grupo": "C", "bandera": "./img/Banderas/ArabiaSaudita.png", "id": 10},
+    {"pais": "MEXICO", "grupo": "C", "bandera": "./img/Banderas/Mexico.png", "id": 11},
+    {"pais": "POLONIA", "grupo": "C", "bandera": "./img/Banderas/Polonia.png", "id": 12},
+
+    {"pais": "FRANCIA", "grupo": "D", "bandera": "./img/Banderas/Francia.png", "id": 13},
+    {"pais": "AUSTRALIA", "grupo": "D", "bandera": "./img/Banderas/Australia.png", "id": 14},
+    {"pais": "DINAMARCA", "grupo": "D", "bandera": "./img/Banderas/Dinamarca.png", "id": 15},
+    {"pais": "TUNEZ", "grupo": "D", "bandera": "./img/Banderas/Tunez.png", "id": 16},
+
+    {"pais": "ESPAÑA", "grupo": "E", "bandera": "./img/Banderas/España.png", "id": 17},
+    {"pais": "COSTA RICA", "grupo": "E", "bandera": "./img/Banderas/CostaRica.png", "id": 18},
+    {"pais": "ALEMANIA", "grupo": "E", "bandera": "./img/Banderas/Alemania.png", "id": 19},
+    {"pais": "JAPON", "grupo": "E", "bandera": "./img/Banderas/Japon.png", "id": 20},
+
+    {"pais": "BELGICA", "grupo": "F", "bandera": "./img/Banderas/Belgica.png", "id": 21},
+    {"pais": "CANADA", "grupo": "F", "bandera": "./img/Banderas/Canada.png", "id": 22},
+    {"pais": "MARRUECOS", "grupo": "F", "bandera": "./img/Banderas/Marruecos.png", "id": 23},
+    {"pais": "CROACIA", "grupo": "F", "bandera": "./img/Banderas/Croacia.png", "id": 24},
+
+    {"pais": "BRASIL", "grupo": "G", "bandera": "./img/Banderas/Brasil.png", "id": 25},
+    {"pais": "SERBIA", "grupo": "G", "bandera": "./img/Banderas/Serbia.png", "id": 26},
+    {"pais": "SUIZA", "grupo": "G", "bandera": "./img/Banderas/Suiza.png", "id": 27},
+    {"pais": "CAMERUN", "grupo": "G", "bandera": "./img/Banderas/Camerun.png", "id": 28},
+
+    {"pais": "PORTUGAL", "grupo": "H", "bandera": "./img/Banderas/Portugal.png", "id": 29},
+    {"pais": "GHANA", "grupo": "H", "bandera": "./img/Banderas/Ghana.png", "id": 30},
+    {"pais": "URUGUAY", "grupo": "H", "bandera": "./img/Banderas/Uruguay.png", "id": 31},
+    {"pais": "COREA DEL SUR", "grupo": "H", "bandera": "./img/Banderas/CoreaDelSur.png", "id": 32}
+]

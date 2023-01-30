@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divWorldCup {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* General */
+.contenedor {
+    width: 100%;
+    max-width: 768px;
+}
+
+.grupos {
+    text-align: center;
+}
+
+.titulo {
+    font-weight: 800;
+    font-size: 40px;
+    color: darkred;
+    margin: 16px;
+}
+
+.partido {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+}
+
+.equipo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: gainsboro;
+}
+
+label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.local {
+    border-radius: 8px 0 0 8px;
+}
+
+.visitante {
+    border-radius: 0 8px 8px 0;
+}
+
+.visitante label {
+    right: 0;
+}
+
+.goles {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.local .goles {
+    margin-right: 8px;
+}
+
+.visitante .goles {
+    margin-left: 8px;
+}
+
+.nom-equipo {
+    margin: 0 16px;
+
+}
+
+.info{
+    font-size: 12px;
+    font-weight: 75;
+    color: grey;
+    margin: 8px 0 32px 0;
+}
+
+.boton {
+    margin: 20px auto;
+    padding: 6px;
+}
+
+/* Saca los botones del input number - esteticamente mejor */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}   
+
+/* Tabla de posiciones */
+
+h1,p{
+    font-family:sans-serif;
+    width:400px;
+    margin:35px auto;
+    text-align:center;
+    color:lightgreen;
+}
+
+p{
+    width:500px;
+}
+
+table{
+    width:720px;
+    margin:0 auto;
+    color:white;
+    text-align:center;
+}
+
+tr{
+    cursor:pointer;
+}
+
+.destacado{
+    font-family:Arial;
+    font-weight:bold;
+    background-color:#0D6859;
+}
+
+    /* Impares */
+table tr:nth-child(odd){
+    background-color:#A0C55E;
+}
+
+table tr:nth-child(odd):hover{
+    color:black;
+    background-color:#00aa00;
+}
+
+    /* Pares */
+
+table tr:nth-child(even){
+    background-color:#7AB318;
+}
+
+table tr:nth-child(even):hover{
+    color:black;
+    background-color:#007700;
+}
+
+.tablaDePosiciones {
+    margin-bottom: 100px;
+}
+
+.banderas {
+    padding: 10px 0;
+}
+
+/* Rotate 180 */
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.movility {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.movility svg {
+    width: 40px;
+    height: 30px;
+    color: black;
+}

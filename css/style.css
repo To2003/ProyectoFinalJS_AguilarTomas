@@ -1,0 +1,72 @@
+/* index.html */
+
+.divWorldCup {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divGrupos {
+    margin: 50px;
+}
+
+.ulGrupos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.tituloGrupos {
+    background-color: #60102E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    margin: 4px 0;
+}
+
+.tituloGrupos a {
+    color: white;
+}
+
+.grupos {
+    width: 270px;
+}
+
+.paises {
+    margin: 4px 0;
+    background-color: #D7D3D0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 800;
+    font-size: 26px;
+    color: #60102E;
+    display: flex;
+    padding-left: 12px;
+    width: 210px;
+}
+
+.sectionPaises{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.sectionPaises img {
+    margin-right: 4px;
+    height: 30px;
+    width: 44px;
+}
+
+.index {
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(165, 165, 165);
+}

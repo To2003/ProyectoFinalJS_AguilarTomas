@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Grupo A </title>
+    <!-- Links -->
+    <link rel="stylesheet" href="../css/grupos.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+    <!-- Menu / Header -->
+    <header>
+        <div class="divWorldCup">
+            <a href="../index.html"><img src="../img/Logo Mundial/LogotipoDeLaCopa.png" alt="copa del mundo" class="worldCup" width="100px" height="120px"></a>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <div class="grupos">
+            <div class="movility"> 
+                <a href="./grupoB.html"><svg xmlns="http://www.w3.org/2000/svg" class="rotate180"  fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg></a>
+                <h2 class="titulo">Grupo C</h2>
+                <a href="./grupoD.html"><svg xmlns="http://www.w3.org/2000/svg"   fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg></a>
+            </div>
+
+            <div class="partidos" id="partidosA">
+
+                
+            
+            </div>
+
+            <button class="boton" id="calcular">Calcular</button>
+            <button class="boton hide" id="reset">Reset</button>
+
+            <div class="tabla"></div>
+
+        </div>
+
+        <!--Tabla de Posiciones-->
+    <div class="tablaDePosiciones">
+    <h1>Tabla de Posiciones</h1>
+    <table cellspacing="0" cellpadding="0">
+        <tr class="destacado">
+            <td>Escudo</td>
+            <td>Nombre</td>
+            <td>PG</td>
+            <td>PP</td>
+            <td>PE</td>
+            <td>GF</td>
+            <td>GC</td>
+            <td>PTS</td>
+        </tr>
+        <tbody>
+            <tr id="positionArg">
+                <td>
+                    <img src= "../img/Banderas/Argentina.png" alt="" width="50px" class="banderas" />
+                </td>
+                <td data-title="Equipo">
+                    Argentina
+                </td>
+                <td id="elementPartidosGanadosArg"></td>
+                <td id="elementPartidosPerdidosArg"></td>
+                <td id="elementPartidosEmpatadosArg"></td>
+                <td id="elementGolesFavorArg"></td>
+                <td id="elementGolesContraArg"></td>
+                <td id="elementPuntosArg" data-title="PTS"></td>
+            </tr>
+            <tr id="positionAra">
+                <td>
+                    <img src="../img/Banderas/ArabiaSaudita.png" alt="" width="50px" class="banderas"/>
+                </td>
+                <td data-title="Equipo">Arabia Saudita</td>
+                <td id="elementPartidosGanadosAra"></td>
+                <td id="elementPartidosPerdidosAra"></td>
+                <td id="elementPartidosEmpatadosAra"></td>
+                <td id="elementGolesFavorAra"></td>
+                <td id="elementGolesContraAra"></td>
+                <td id="elementPuntosAra" data-title="PTS"></td>
+            </tr>
+            <tr id="positionMex">
+                <td>
+                    <img src="../img/Banderas/Mexico.png" alt="" width="50px" class="banderas"/>
+                </td>
+                <td data-title="Equipo">Mexico</td>
+                <td id="elementPartidosGanadosMex"></td>
+                <td id="elementPartidosPerdidosMex"></td>
+                <td id="elementPartidosEmpatadosMex"></td>
+                <td id="elementGolesFavorMex"></td>
+                <td id="elementGolesContraMex"></td>
+                <td id="elementPuntosMex" data-title="PTS"></td>
+            </tr>
+            <tr id="positionPol">
+                <td>
+                    <img src="../img/Banderas/Polonia.png" alt="" width="50px" class="banderas"/>
+                </td>
+                <td id="teamName">Polonia</td>
+                <td id="elementPartidosGanadosPol"></td>
+                <td id="elementPartidosPerdidosPol"></td>
+                <td id="elementPartidosEmpatadosPol"></td>
+                <td id="elementGolesFavorPol"></td>
+                <td id="elementGolesContraPol"></td>
+                <td id="elementPuntosPol" data-title="PTS"></td>
+            </tr>
+            
+            
+        </tbody>
+    </table>
+
+
+    </div>
+
+    </main>
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+    <script src="../partidos.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
