@@ -154,7 +154,7 @@ calcular.addEventListener("click", () =>{
     Swal.fire({
         position: 'top-end',
         icon: 'success',
-        title: 'Listo, que capo soy!!',
+        title: 'Calculado!!',
         showConfirmButton: false,
         timer: 1500
     })
